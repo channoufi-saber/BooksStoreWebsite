@@ -1,0 +1,9 @@
+com/bookstore/entity/Customer.class
+com/bookstore/entity/Book.class
+com/bookstore/entity/BookOrder.class
+com/bookstore/entity/Book$1.class
+com/bookstore/entity/OrderDetailId.class
+com/bookstore/entity/Review.class
+com/bookstore/entity/Users.class
+com/bookstore/entity/Category.class
+com/bookstore/entity/OrderDetail.class
