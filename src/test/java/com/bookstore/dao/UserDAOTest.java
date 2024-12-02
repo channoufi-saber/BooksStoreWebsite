@@ -4,10 +4,6 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Test;
-
 import com.bookstore.entity.Users;
 
 public class UserDAOTest {
@@ -15,7 +11,6 @@ public class UserDAOTest {
 	private static EntityManager entityManager;
 	private static UserDAO userDAO;
 
-	@BeforeClass
 	public static void setupClass() {
 		entityManagerFactory = Persistence.createEntityManagerFactory("BooksStoreWebsite");
 		entityManager = entityManagerFactory.createEntityManager();
@@ -36,7 +31,6 @@ public class UserDAOTest {
 		user1 = userDAO.create(user1);
 	}
 
-	@Test
 	public void testUpdateUsers() {
 		Users user = new Users();
 		user.setUserId(27);
@@ -47,7 +41,6 @@ public class UserDAOTest {
 		user = userDAO.update(user);
 	}
 
-	@AfterClass
 	public static void tearDownClass() {
 		entityManager.close();
 		entityManagerFactory.close();

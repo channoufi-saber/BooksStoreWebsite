@@ -1,3 +1,4 @@
+com/bookstore/controller/frontend/HomeServlet.class
 com/bookstore/entity/Customer.class
 com/bookstore/entity/Book.class
 com/bookstore/entity/BookOrder.class
