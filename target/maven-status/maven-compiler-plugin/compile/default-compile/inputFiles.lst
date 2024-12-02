@@ -5,5 +5,6 @@
 /home/channoufisaber/NetBeansProjects/BooksStoreWebsite/src/main/java/com/bookstore/entity/Category.java
 /home/channoufisaber/NetBeansProjects/BooksStoreWebsite/src/main/java/com/bookstore/entity/Book.java
 /home/channoufisaber/NetBeansProjects/BooksStoreWebsite/src/main/java/com/bookstore/entity/BookOrder.java
+/home/channoufisaber/NetBeansProjects/BooksStoreWebsite/src/main/java/com/bookstore/controller/admin/AdminHomeServlet.java
 /home/channoufisaber/NetBeansProjects/BooksStoreWebsite/src/main/java/com/bookstore/entity/Review.java
 /home/channoufisaber/NetBeansProjects/BooksStoreWebsite/src/main/java/com/bookstore/entity/Users.java
