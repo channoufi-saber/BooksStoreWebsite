@@ -1,6 +1,0 @@
-com/bookstore/entity/CategoryTest.class
-com/bookstore/entity/UsersTest.class
-com/bookstore/dao/UserDAOTest.class
-com/bookstore/dao/UserDAO.class
-com/bookstore/dao/JpaDAO.class
-com/bookstore/dao/GenericDAO.class

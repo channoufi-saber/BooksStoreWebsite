@@ -5,10 +5,17 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.NamedQueries;
+import javax.persistence.NamedQuery;
 import javax.persistence.Table;
 
 @Table(name = "users", catalog = "bookstoredb")
 @Entity
+@NamedQueries({
+		@NamedQuery(name = "Users.findAll", query = "SELECT u FROM Users u"),
+		@NamedQuery(name = "Users.countAll", query = "SELECT COUNT(u) FROM Users u"),
+		@NamedQuery(name = "Users.findByEmail", query = "SELECT u FROM Users u WHERE u.email = :email")
+})
 public class Users {
 
 	private Integer userId;
