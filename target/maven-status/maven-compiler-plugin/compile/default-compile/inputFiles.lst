@@ -5,6 +5,7 @@
 /home/channoufisaber/NetBeansProjects/BooksStoreWebsite/src/main/java/com/bookstore/dao/GenericDao.java
 /home/channoufisaber/NetBeansProjects/BooksStoreWebsite/src/main/java/com/bookstore/controller/admin/users/UpdateUserServlet.java
 /home/channoufisaber/NetBeansProjects/BooksStoreWebsite/src/main/java/com/bookstore/service/backend/UserServices.java
+/home/channoufisaber/NetBeansProjects/BooksStoreWebsite/src/main/java/com/bookstore/controller/admin/users/DeleteUserServlet.java
 /home/channoufisaber/NetBeansProjects/BooksStoreWebsite/src/main/java/com/bookstore/controller/admin/AdminHomeServlet.java
 /home/channoufisaber/NetBeansProjects/BooksStoreWebsite/src/main/java/com/bookstore/entity/Users.java
 /home/channoufisaber/NetBeansProjects/BooksStoreWebsite/src/main/java/com/bookstore/controller/admin/users/CreateUserServlet.java

@@ -11,21 +11,20 @@ import javax.servlet.http.HttpServletResponse;
 import com.bookstore.service.backend.UserServices;
 
 /**
- * CreateUserServlet
+ * DeleteUserServlet
  */
-@WebServlet("/admin/create_user")
-public class CreateUserServlet extends HttpServlet {
+@WebServlet("/admin/delete_user")
+public class DeleteUserServlet extends HttpServlet {
+
 	private static final long serialVersionUID = 1L;
 
-	public CreateUserServlet() {
+	public DeleteUserServlet() {
 		super();
 	}
 
-	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-
 		UserServices userServices = new UserServices(request, response);
-		userServices.createUser();
+		userServices.deleteUser();
 	}
-
 }
