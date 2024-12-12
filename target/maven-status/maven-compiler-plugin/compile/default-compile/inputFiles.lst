@@ -3,9 +3,12 @@
 /home/channoufisaber/NetBeansProjects/BooksStoreWebsite/src/main/java/com/bookstore/dao/UserDao.java
 /home/channoufisaber/NetBeansProjects/BooksStoreWebsite/src/main/java/com/bookstore/controller/frontend/HomeServlet.java
 /home/channoufisaber/NetBeansProjects/BooksStoreWebsite/src/main/java/com/bookstore/dao/GenericDao.java
+/home/channoufisaber/NetBeansProjects/BooksStoreWebsite/src/main/java/com/bookstore/controller/admin/users/UpdateUserServlet.java
 /home/channoufisaber/NetBeansProjects/BooksStoreWebsite/src/main/java/com/bookstore/service/backend/UserServices.java
 /home/channoufisaber/NetBeansProjects/BooksStoreWebsite/src/main/java/com/bookstore/controller/admin/AdminHomeServlet.java
 /home/channoufisaber/NetBeansProjects/BooksStoreWebsite/src/main/java/com/bookstore/entity/Users.java
+/home/channoufisaber/NetBeansProjects/BooksStoreWebsite/src/main/java/com/bookstore/controller/admin/users/CreateUserServlet.java
+/home/channoufisaber/NetBeansProjects/BooksStoreWebsite/src/main/java/com/bookstore/controller/admin/users/EditUserServlet.java
 /home/channoufisaber/NetBeansProjects/BooksStoreWebsite/src/main/java/com/bookstore/entity/OrderDetail.java
 /home/channoufisaber/NetBeansProjects/BooksStoreWebsite/src/main/java/com/bookstore/entity/OrderDetailId.java
 /home/channoufisaber/NetBeansProjects/BooksStoreWebsite/src/main/java/com/bookstore/entity/Category.java

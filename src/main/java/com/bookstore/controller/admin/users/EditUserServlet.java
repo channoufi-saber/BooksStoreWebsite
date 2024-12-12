@@ -11,19 +11,17 @@ import javax.servlet.http.HttpServletResponse;
 import com.bookstore.service.backend.UserServices;
 
 /**
- * ListUsersServlet
+ * EditUserServlet
  */
-@WebServlet("/admin/list_users")
-public class ListUsersServlet extends HttpServlet {
-	private static final long serialVersionUID = 1L;
+@WebServlet("/admin/edit_user")
+public class EditUserServlet extends HttpServlet {
 
-	public ListUsersServlet() {
-		super();
-	}
+	private static final long serialVersionUID = 1L;
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
+
 		UserServices userServices = new UserServices(request, response);
-		userServices.listUser();
+		userServices.editUser();
 	}
 }
